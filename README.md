@@ -1,4 +1,4 @@
-**Form Pendaftaran Universitas Ciputra Makassar**
+# Form Pendaftaran Universitas Ciputra Makassar
 
 This project contains a simple registration form designed as part of the Week 10 Lab Assignment for a Web Programming course. It utilizes HTML, Bootstrap, and JavaScript to create a user-friendly form with client-side validation and dynamic output display upon submission.
 
