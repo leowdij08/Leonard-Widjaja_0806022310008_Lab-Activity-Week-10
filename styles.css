@@ -1,0 +1,104 @@
+/* Gaya CSS untuk halaman */
+body {
+    background-color: orange; /* Warna latar belakang */
+}
+
+.container {
+    max-width: 700px; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Posisi kontainer di tengah */
+    padding: 20px; /* Ruang padding di dalam kontainer */
+    border: 1px solid #ccc; /* Garis tepi kontainer */
+    border-radius: 5px; /* Radius sudut kontainer */
+    background-color: white; /* Warna latar belakang kontainer */
+}
+
+/* Gaya untuk elemen judul */
+h2 {
+    text-align: center; /* Posisi judul di tengah */
+}
+
+/* Gaya untuk kontainer logo */
+.logo-container {
+    text-align: center; /* Posisi teks di tengah */
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+.logo-container img {
+    max-width: 200px; /* Lebar maksimum logo */
+    height: auto; /* Tinggi otomatis */
+}
+
+/* Gaya untuk grup elemen formulir */
+.form-group {
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+/* Gaya untuk label */
+label {
+    display: block; /* Menampilkan label sebagai blok */
+    font-weight: bold; /* Ketebalan teks */
+}
+
+/* Gaya untuk input, select, dan textarea */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+select {
+    width: 100%; /* Lebar penuh */
+    padding: 8px; /* Ruang padding */
+    border: 1px solid #ccc; /* Garis tepi */
+    background-color: #e8f0ff; /* Warna latar belakang */
+    border-radius: 5px; /* Radius sudut */
+}
+
+/* Gaya untuk tombol submit */
+button[type="submit"] {
+    padding: 10px 20px; /* Ruang padding */
+    background-color: #000000; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    border: none; /* Tanpa garis tepi */
+    border-radius: 5px; /* Radius sudut */
+    cursor: pointer; /* Kursor pointer */
+    margin: 0 auto; /* Posisi tengah */
+    display: block; /* Menampilkan tombol sebagai blok */
+}
+
+/* Gaya untuk tombol submit saat dihover */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Warna latar belakang saat dihover */
+}
+
+/* Gaya untuk elemen input nomor telepon */
+.phone-input {
+    display: flex; /* Tampilan fleksibel */
+    align-items: center; /* Posisi teks di tengah */
+}
+
+/* Gaya untuk pilihan kode negara pada input nomor telepon */
+.phone-input select {
+    flex: 0 0 auto; /* Elemen tidak fleksibel */
+    width: auto; /* Lebar otomatis */
+    margin-right: 5px; /* Jarak kanan */
+    padding: 8px; /* Ruang padding */
+    border: 1px solid #ccc; /* Garis tepi */
+    border-radius: 5px; /* Radius sudut */
+}
+
+/* Gaya untuk input nomor telepon pada input nomor telepon */
+.phone-input input[type="tel"] {
+    flex: 4; /* Fleksibilitas */
+    padding: 8px; /* Ruang padding */
+    border: 1px solid #ccc; /* Garis tepi */
+    border-radius: 5px; /* Radius sudut */
+}
+
+/* Gaya untuk input jenis kelamin */
+input[name="gender"] {
+    margin-left: 10px; /* Jarak kiri */
+}
+
+/* Gaya untuk ikon jenis kelamin */
+i {
+    margin-left: 5px; /* Jarak kiri */
+}
